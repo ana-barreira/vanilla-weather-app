@@ -15,7 +15,6 @@
 }
 
 .bodycontainer {
-  border: solid black;
   border-radius: 1%;
   padding: 10px;
   display: block;
@@ -36,6 +35,7 @@
 }
 hr:not([size]) {
   height: 10px;
+  color: #971133;
 }
 
 img {
