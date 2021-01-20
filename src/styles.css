@@ -18,7 +18,7 @@
   border-radius: 1%;
   padding: 10px;
   display: block;
-  margin: 0 0 100px 0;
+  margin: 0 0 20px 0;
   background-color: rosybrown;
 }
 .card-body {
@@ -93,4 +93,11 @@ li {
 a {
   text-decoration: none;
   color: black;
+}
+.footer {
+  text-decoration: underline;
+  color: blue;
+}
+.credits {
+  text-align: center;
 }
