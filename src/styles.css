@@ -1,5 +1,5 @@
 .container {
-  max-width: 600px;
+  max-width: 550px;
   margin: 0 auto;
 }
 
@@ -30,9 +30,7 @@
 .col-6 {
   text-align: center;
 }
-.col-2 {
-  padding: 0px;
-}
+
 hr:not([size]) {
   height: 10px;
   color: #971133;
@@ -77,7 +75,8 @@ li {
   font-weight: bold;
 }
 .card-title {
-  font-size: 20px;
+  font-size: 15px;
+  margin-bottom: 0;
 }
 .card {
   border: none;
