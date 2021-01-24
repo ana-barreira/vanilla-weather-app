@@ -74,6 +74,17 @@ li {
   display: inline;
   font-weight: bold;
 }
+
+.active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+.celsius,
+.fahrenheit {
+  font-size: 15px;
+}
+
 .card-title {
   font-size: 15px;
   margin-bottom: 0;
@@ -95,10 +106,7 @@ li {
   position: relative;
   top: -20px;
 }
-a {
-  text-decoration: none;
-  color: black;
-}
+
 .footer {
   text-decoration: underline;
   color: blue;
