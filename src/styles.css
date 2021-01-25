@@ -9,9 +9,15 @@
   display: block;
   margin: 0 auto;
   font-family: "Source Code Pro", monospace;
-  border: 10px lightblue;
-  border-style: solid;
+  color: white;
+  opacity: 0.9;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   margin-top: 100px;
+  background-image: url("https://wallpapercave.com/wp/UiDGiSq.jpg");
+  background-repeat: no-repeat;
+  background-size: 1000px;
 }
 
 .bodycontainer {
@@ -19,7 +25,10 @@
   padding: 10px;
   display: block;
   margin: 0 0 20px 0;
-  background-color: rosybrown;
+  background-color: #c10037;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .card-body {
   padding: 0;
@@ -29,11 +38,6 @@
 
 .col-6 {
   text-align: center;
-}
-
-hr:not([size]) {
-  height: 10px;
-  color: #971133;
 }
 
 img {
@@ -76,13 +80,14 @@ li {
 }
 
 .active {
-  color: black;
+  color: white;
   cursor: default;
   text-decoration: none;
 }
 .celsius,
 .fahrenheit {
   font-size: 15px;
+  color: white;
 }
 
 .card-title {
