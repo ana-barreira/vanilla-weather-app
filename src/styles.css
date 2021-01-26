@@ -111,9 +111,7 @@ li {
   position: relative;
   top: -20px;
 }
-.row.weather-forecast {
-  margin-left: 50px;
-}
+
 .weather-forecast {
   margin-top: 35px;
 }
@@ -144,6 +142,7 @@ li {
   height: auto;
   line-height: 15px;
 }
+
 .footer {
   text-decoration: underline;
   color: blue;
