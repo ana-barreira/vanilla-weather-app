@@ -111,7 +111,39 @@ li {
   position: relative;
   top: -20px;
 }
+.row.weather-forecast {
+  margin-left: 50px;
+}
+.weather-forecast {
+  margin-top: 35px;
+}
 
+.weather-forecast h3 {
+  color: black;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  height: 15px;
+  line-height: 15px;
+  padding-top: 7px;
+}
+
+.weather-forecast img {
+  display: block;
+  margin: 0 auto;
+  width: 70px;
+}
+
+.weather-forecast-temperature {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  height: auto;
+  line-height: 15px;
+}
 .footer {
   text-decoration: underline;
   color: blue;
