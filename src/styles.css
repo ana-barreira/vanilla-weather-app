@@ -6,6 +6,7 @@
 .headcontainer {
   border-radius: 1%;
   padding: 20px;
+  padding-left: 25px;
   display: block;
   margin: 0 auto;
   font-family: "Source Code Pro", monospace;
@@ -54,10 +55,13 @@ img {
 }
 .city {
   font-size: 45px;
-  text-align: center;
+  text-align: left;
   font-family: "Josefin Sans", sans-serif;
   font-weight: bold;
   overflow: hidden;
+}
+p.lastUpdate {
+  text-align: left;
 }
 .actualtemp {
   position: relative;
@@ -113,7 +117,7 @@ li {
 }
 
 .weather-forecast {
-  margin-top: 35px;
+  margin-top: 50px;
 }
 
 .weather-forecast h3 {
