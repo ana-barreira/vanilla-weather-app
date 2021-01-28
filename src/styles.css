@@ -20,7 +20,6 @@
   background-repeat: no-repeat;
   background-size: 1000px;
 }
-
 .bodycontainer {
   border-radius: 1%;
   padding: 10px;
@@ -115,9 +114,42 @@ li {
   position: relative;
   top: -20px;
 }
+.mushroomTop {
+  width: 40px;
+  margin-left: unset;
+  position: absolute;
+  animation-name: drive;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes drive {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(500px);
+  }
+}
+.mushroomBottom {
+  width: 40px;
+  margin-left: 500px;
+  position: absolute;
+  animation-name: driveBackwards;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes driveBackwards {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-500px);
+  }
+}
 
 .weather-forecast {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .weather-forecast h3 {
