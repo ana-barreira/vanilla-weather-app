@@ -133,6 +133,25 @@ li {
     transform: translateX(500px);
   }
 }
+.marioImg {
+  width: 40px;
+  margin-left: unset;
+  position: absolute;
+  animation-name: driveMario;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  margin-top: -15px;
+}
+
+@keyframes driveMario {
+  from {
+    transform: translateX(-50px);
+  }
+  to {
+    transform: translateX(450px);
+  }
+}
+
 .mushroomBottom {
   width: 40px;
   margin-left: 500px;
@@ -140,6 +159,7 @@ li {
   animation-name: driveBackwards;
   animation-duration: 3s;
   animation-iteration-count: infinite;
+  margin-top: -45px;
 }
 @keyframes driveBackwards {
   from {
@@ -152,6 +172,7 @@ li {
 
 .weather-forecast {
   margin-bottom: 60px;
+  margin-top: 10px;
 }
 
 .weather-forecast h3 {
